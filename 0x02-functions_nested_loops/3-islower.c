@@ -7,8 +7,10 @@
  * @c : character to check the case
  * Return:0 or 1
  */
-
-int_islower(int c)
+int _islower(int c)
 {
-	return (c >= 97 && c <= 122);
+if (c >= 'a' && c <= 'z')
+return (1);
+else
+return (0);
 }
