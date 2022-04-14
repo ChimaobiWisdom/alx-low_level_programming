@@ -4,7 +4,7 @@
  * main - Entry point
  *
  * _islower - check for lower case letter
- * @c : The character to check the case
+ *@c : The character to check the case
  * Return:0 or 1
  */
 int _islower(int c)
